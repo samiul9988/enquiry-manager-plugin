@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+*.zip
+node_modules/
+vendor/
+.env
+*.cache
+Thumbs.db
