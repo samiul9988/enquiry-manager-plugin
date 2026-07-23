@@ -1,0 +1,126 @@
+.em-admin-filters {
+	margin: 1rem 0 1rem;
+}
+
+.em-filter-form {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.em-status-filter {
+	min-width: 150px;
+}
+
+.em-search-input {
+	min-width: 220px;
+}
+
+.em-enquiries-table .em-col-id {
+	width: 60px;
+}
+
+.em-actions-cell {
+	white-space: nowrap;
+}
+
+.em-actions-cell .button {
+	margin-right: 4px;
+	margin-bottom: 2px;
+}
+
+.em-status {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+.em-status-new {
+	background-color: #dbe4ff;
+	color: #034ec2;
+}
+
+.em-status-read {
+	background-color: #fff3bf;
+	color: #946400;
+}
+
+.em-status-archived {
+	background-color: #e9ecef;
+	color: #495057;
+}
+
+.em-detail-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 1.5rem;
+	margin-top: 1rem;
+	max-width: 700px;
+}
+
+.em-detail-table th {
+	width: 140px;
+	font-weight: 600;
+}
+
+.em-message-content {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 1rem;
+	margin: 1rem 0;
+	line-height: 1.6;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.em-detail-actions {
+	margin-top: 1.5rem;
+	padding-top: 1rem;
+	border-top: 1px solid #dcdcde;
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+.em-settings-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 1.25rem 1.5rem;
+	margin: 1.5rem 0;
+	max-width: 700px;
+}
+
+.em-settings-card h2 {
+	margin-top: 0;
+	font-size: 1.1rem;
+}
+
+.em-shortcode-box {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin: 0.75rem 0;
+}
+
+.em-shortcode-text {
+	display: inline-flex;
+	align-items: center;
+	padding: 5px 12px;
+	background: #f0f0f1;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	font-size: 14px;
+	font-family: monospace;
+	color: #1d2327;
+	user-select: all;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
